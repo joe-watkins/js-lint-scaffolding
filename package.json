@@ -7,7 +7,7 @@
     "npm-run-all": "^3.1.1"
   },
   "scripts": {
-    "jshint": "jshint test.js",
+    "jshint": "jshint test.js || true",
     "jscs": "jscs test.js || true",
     "test": "npm-run-all -p jshint jscs"
   }
