@@ -16,8 +16,8 @@ Engine.ui.functionNameHere = function() {
 			console.log('meow');
 		}
 
-		};
+	};
 
-		app.init();
+	app.init();
 
 };
